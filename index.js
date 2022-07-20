@@ -5,6 +5,6 @@ const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Sa
 
 let curr = new Date()
 let t = curr.toLocaleTimeString()
-time.innerText = t.slice(0,5)
-centerTime.innerText = t.slice(0,5)
+time.innerText = t.slice(0,4)
+centerTime.innerText = t.slice(0,4)
 day.innerText = weekday[curr.getDay()]
